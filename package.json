@@ -1,0 +1,22 @@
+{
+  "name": "react-mobile-shop",
+  "version": "1.0.0",
+  "description": "前后端组合",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toKnowMore/react-mobile-shop.git"
+  },
+  "author": "zfk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toKnowMore/react-mobile-shop/issues"
+  },
+  "homepage": "https://github.com/toKnowMore/react-mobile-shop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
