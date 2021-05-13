@@ -1,5 +1,8 @@
-const express = require("express");
-const products = require("./data/products");
+import express from "express"
+import dotenv from 'dotenv'
+import products from "./data/products.js"
+
+dotenv.config()
 
 const app = express();
 
@@ -16,4 +19,6 @@ app.get("/api/products/:id", (req, res) => {
   res.json(product);
 });
 
-app.listen(5000, console.log("服务已经开始监听5000..."));
+const PORT = process.env.PORT
+
+app.listen(PORT, console.log(`服务器在${process.env.NODE_ENV}模式下${PORT}端口号运行...`));
