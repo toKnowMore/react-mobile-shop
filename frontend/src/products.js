@@ -21,7 +21,7 @@ const products = [
     brand: '苹果',
     category: '电子产品',
     price: 6799,
-    countInStock: 0,
+    countInStock: 7,
     rating: 4.0,
     numReviews: 5,
   },
@@ -128,7 +128,7 @@ const products = [
     countInStock: 15,
     rating: 3.6,
     numReviews: 5,
-  }
+  },
 ]
 
 export default products
